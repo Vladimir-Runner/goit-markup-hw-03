@@ -1,9 +1,9 @@
 :root {
-
+  box-sizing: border-box;
 
         
         --items: 3; // змінна для зберігання кількостелементів в одному рядку сітки
-        --indent: 30px; // змінні для зберігання значеннвідступу між елементами
+        --indent: 30px; // змінні для зберігання значення відступу між елементами
                 
    
     /* ---- */
@@ -100,9 +100,8 @@ body {
 }
 
 /* Reset */
-/* 
- */
-
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
 
 .list, ul, ol {
     list-style: none;
@@ -166,7 +165,8 @@ button {
                 color: var(--main-dark-bg);                
  }
 
- /*  */
+ 
+.header-list .header-link:active
 .header-link:hover,
 .header-link:focus 
  {
@@ -203,6 +203,8 @@ button {
  /* для 3-й домашки */
  /*  */
 
+ .header-contacts:active,
+ .header-item:active,
  .header-contacts:hover,
  .header-contacts:focus,
  .header-item:hover,
@@ -232,17 +234,24 @@ button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        /*  */
+        
+	display: flex;
+        align-items: center;
         letter-spacing: 0.04em;
         color: var(--main-light-bg);       
-        /*  */
-        /*  */
-        /*  */
-        /*  */
-        /*  */
-        /*  */
+	flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;        
+
+	
         background: var(--string-web-cl);
-        /*  */
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        
         text-align: center;
  }
 
@@ -392,9 +401,10 @@ button {
         letter-spacing: 0.02em;
         color: var(--main-dark-bg);
         background-color: var(--main-light-bg);
-        /*  */
-        /*  */
-        /*  */
+	flex: none;
+        order: 0;
+        flex-grow: 0;
+        
 }
 
 .mark {}
@@ -411,7 +421,10 @@ button {
         letter-spacing: 0.02em;
         color: var(--link-cl);
         background-color: var(--main-light-bg);
-        /*  */
+	flex: none;
+        order: 1;
+        flex-grow: 0;
+        
 }
 
 .tom {}
@@ -452,7 +465,8 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--studio-down-cl);
-        /*  */
+	width: 264px;
+        
  }
 
 
@@ -486,7 +500,10 @@ button {
 
 /* Можливо так - це підказка з чату у figma */
 .btn-press {
- /*  */
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+ 0px 2px 1px rgba(0, 0, 0, 0.08),
+ 0px 2px 2px rgba(0, 0, 0, 0.12);
+ 
 }
 
 .btn-press:active {
