@@ -1,6 +1,43 @@
 :root {
+
+
+        
+        --items: 3; // змінна для зберігання кількостелементів в одному рядку сітки
+        --indent: 30px; // змінні для зберігання значеннвідступу між елементами
+                
+   
     /* ---- */
 
+/* Container */
+.container {
+        margin: 0 auto; /* (центрує) */
+        width: 1158px;
+        padding: 0 15px;
+        /* (відступи, в фігмі можна побачити, якщо сітку вімкнути) */
+        }
+
+/* Щоб зображеня не з`їжджали направо */
+ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+
+
+       /**
+          |============================
+          | Flexbox grid
+          |============================
+        */
+       .card-set {
+               display: flex;
+               flex-wrap: wrap;
+               gap: var(--indent);
+       }
+
+       .card-set-item {
+               flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+       }
 
 /* Font */
 --primary-font: Roboto, sans-serif;
@@ -19,11 +56,29 @@
 /* Others */
 /* from our tutor Yaroslav - true hidding of some elements */
 .visually-hidden {
-                //ADD text of this class               
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
                 
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+     //   You can add these:
+        
+         outline: 0;
+         outline-offset: 0;
         }
 
-        
+          /*       Если надо скрыть элементы от скрин-ридеров и убрать выделение табом и мышкой: .is-hidden {
+                        visibility: hidden;
+                        pointer-events: none;
+                        position: absolute;
+                } */
+       
 }
 
 
