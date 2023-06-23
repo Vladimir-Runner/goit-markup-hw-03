@@ -1,0 +1,440 @@
+:root {
+    /* ---- */
+
+
+/* Font */
+--primary-font: Roboto, sans-serif;
+
+/* Colors */
+/* --main-dark-cl: 
+--main-light-cl: */
+--ocean-cl: #404BBF;
+--main-light-bg: #ffffff;
+--light-bg: #e5e5e5;
+--main-dark-bg: #2e2f42;
+--link-cl: #434455;
+--string-web-cl: #4D5AE5;
+--studio-down-cl: #F4F4FD;
+
+/* Others */
+/* from our tutor Yaroslav - true hidding of some elements */
+.visually-hidden {
+                //ADD text of this class               
+                
+        }
+
+        
+}
+
+
+/* 
+  |---------------------------
+  |Common styles
+  |---------------------------
+*/
+
+body {
+    
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: #434455;
+    background-color: var(--main-light-bg);
+}
+
+/* Reset */
+/* 
+ */
+
+
+.list, ul, ol {
+    list-style: none;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn,
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: var(--main-dark-bg);
+}
+
+.link {
+    color: var(--link-cl);
+    text-decoration: none;
+}
+
+/* 
+|---------------------------
+|Header styles
+|---------------------------
+ */
+ .header {}
+
+ .header-nav {
+    background: var(--main-light-bg);
+ }
+
+ .logo {
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#4D5AE5;
+ }
+
+ .web {
+         color: var(--string-web-cl);
+ }
+ 
+ .studio, .studio-header {
+        color: var(--main-dark-bg);
+ }
+
+ .header-list {                
+                font-family: Roboto, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: var(--main-dark-bg);                
+ }
+
+ /*  */
+.header-link:hover,
+.header-link:focus 
+ {
+        color: var(--ocean-cl);
+}
+
+
+
+ .header-link {
+       color: var(--main-dark-bg);        
+ }
+
+ .address {
+    font-style: normal;
+ }
+
+ .header-contacts {}
+
+
+ .header-item,
+  {
+    list-style: none;
+    text-decoration: none;
+    color: currentColor;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: var(--link-cl);
+ }
+
+ /* для 3-й домашки */
+ /*  */
+
+ .header-contacts:hover,
+ .header-contacts:focus,
+ .header-item:hover,
+ .header-item:focus {
+     color: var(--ocean-cl);
+ }
+
+ /* 
+|---------------------------
+|Hero styles
+|---------------------------
+ */
+ .hero {}
+
+ .hero-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--main-light-bg);
+ }
+
+ .hero-btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /*  */
+        letter-spacing: 0.04em;
+        color: var(--main-light-bg);       
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        background: var(--string-web-cl);
+        /*  */
+        text-align: center;
+ }
+
+ .hero-btn:hover,
+ .hero-btn:focus {
+        background-color: var(--ocean-cl);       
+        /*  */
+        /*  */
+        text-align: center;
+ }
+
+/* 
+|---------------------------
+|Describe styles
+|--------------------------- 
+*/
+
+.section {}
+
+.describe {}
+
+.strategy {}
+
+.name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;    
+        color: var(--main-dark-bg);
+}
+
+.item {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;    
+        color: var(--link-cl);
+}
+
+
+
+.strategy-item {}
+
+.punctuality {}
+
+.punctuality-item {}
+
+.diligence {}
+
+.diligence-item {}
+
+.technologies {}
+
+.technologies-item {}
+
+/* 
+|---------------------------
+|Doing styles
+|--------------------------- 
+*/
+
+.section {}
+
+.doing,
+.doing-title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--main-dark-bg);
+
+}
+
+/* 
+|---------------------------
+|Team styles
+|--------------------------- 
+*/
+
+.section {}
+
+.team {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--main-dark-bg);
+        background-color: var(--studio-down-cl);
+}
+
+.team-item {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;        
+}
+
+.team-list {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--main-dark-bg);
+        background-color: var(--main-light-bg);
+}
+
+.team-worker {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--link-cl);
+        background-color: var(--main-light-bg);
+}
+
+.our-team {
+        background-color: var(--main-light-bg);
+}
+
+.homan, .application {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;        
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--main-dark-bg);
+        background-color: var(--main-light-bg);
+        /*  */
+        /*  */
+        /*  */
+}
+
+.mark {}
+
+.product {}
+
+.worker, .type-application {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--link-cl);
+        background-color: var(--main-light-bg);
+        /*  */
+}
+
+.tom {}
+
+.frontend {}
+
+.camila {}
+
+.marketing {}
+
+.daniel {}
+
+.ui-designer {}
+
+/* 
+|---------------------------
+|Footer  styles
+|--------------------------- 
+*/
+
+ .footer {
+    background: var(--main-dark-bg);
+ }
+
+ .logo {}
+
+ .web {}
+
+ .studio-down {
+        Color: var(--studio-down-cl);
+ }
+
+ .footer-description {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--studio-down-cl);
+        /*  */
+ }
+
+
+ /* PORTFOLIO PAGE */
+
+/* 
+|---------------------------
+|Button section styles
+|--------------------------- 
+*/
+ 
+.btn-filter {
+        color: var(--string-web-cl);
+        background-color: var(--studio-down-cl);
+        text-align: center;
+        
+        /* Button Text */
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+
+.btn-filter:hover, 
+.btn-filter:focus {
+        color: var(--main-light-bg);
+        background-color: var(--ocean-cl);
+}
+
+/* Можливо так - це підказка з чату у figma */
+.btn-press {
+ /*  */
+}
+
+.btn-press:active {
+    background-color: var(--ocean-cl);
+}
+
