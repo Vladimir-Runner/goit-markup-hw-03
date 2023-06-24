@@ -1,4 +1,5 @@
 :root {
+
     /*   */
 
 
@@ -22,8 +23,13 @@
                 //ADD text of this class               
                 
         }
-
         
+}
+
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
 }
 
 
