@@ -72,6 +72,8 @@ body {
 .list, ul, ol {
     list-style: none;
     font-style: normal;
+    display: block;
+
 }
 
 ul, ol {
