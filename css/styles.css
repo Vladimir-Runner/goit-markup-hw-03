@@ -1,7 +1,8 @@
 :root {
 
     /*   */
-
+        --items: 3; // змінна для зберігання кількості елементів в одному рядку сітки
+        --indent: 30px; // змінні для зберігання значення відступу між елементами
 
 /* Font */
 --primary-font: Roboto, sans-serif;
@@ -71,6 +72,34 @@ body {
 .list, ul, ol {
     list-style: none;
     font-style: normal;
+}
+
+ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+
+/**
+  |============================
+  | Flexbox grid
+  |============================
+*/
+.card-set {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--indent);
+}
+
+​ .card-set-item {
+        flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+.container {
+        /* центрує */
+        margin: 0 auto; 
+        width: 1158px;
+        padding: 0 15px;
 }
 
 a {
@@ -417,7 +446,7 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--studio-down-cl);
-        /*  */
+        width: 264px;
  }
 
 
