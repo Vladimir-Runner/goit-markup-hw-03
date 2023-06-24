@@ -121,6 +121,7 @@ button {
 .link {
     color: var(--link-cl);
     text-decoration: none;
+        display: block;
 }
 
 /* 
