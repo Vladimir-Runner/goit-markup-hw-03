@@ -189,7 +189,8 @@ button {
  .header-link {
        color: var(--main-dark-bg);    
        display: flex; 
-       gap: 40px;    
+       gap: 40px;   
+         
  }
 
  .address {
