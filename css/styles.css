@@ -174,7 +174,10 @@ button {
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                color: var(--main-dark-bg);                
+                color: var(--main-dark-bg);   
+                display: flex;
+                gap: 40px;
+                padding: 24px 0;
  }
 
  /*  */ 
@@ -188,8 +191,7 @@ button {
 
  .header-link {
        color: var(--main-dark-bg);    
-       display: flex; 
-       gap: 40px;   
+          
          
  }
 
