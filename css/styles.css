@@ -22,7 +22,17 @@
 /* from our tutor Yaroslav - true hidding of some elements */
 .visually-hidden {
                 //ADD text of this class               
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                border: 0;
+                padding: 0;
                 
+                white-space: nowrap;
+                clip-path: inset(100%);
+                clip: rect(0 0 0 0);
+                overflow: hidden;
         }
         
 }
@@ -194,8 +204,7 @@ button {
 
 
  .header-link {
-       color: var(--main-dark-bg);    
-          
+       color: var(--main-dark-bg);              
          
  }
 
@@ -226,8 +235,7 @@ button {
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--link-cl);
-    /* align-items: center; */
-     
+         
  }
 
 
