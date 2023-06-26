@@ -33,8 +33,7 @@
                 clip-path: inset(100%);
                 clip: rect(0 0 0 0);
                 overflow: hidden;
-        }
-        
+        }        
 }
 
 *,
@@ -68,8 +67,7 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    
+    letter-spacing: 0.02em;    
     color: #434455;
     background-color: var(--main-light-bg);
 }
@@ -121,7 +119,6 @@ ul, ol {
 
 .header-container {      
         display: flex;
-        /* padding: 24px 0; */
 }
 
 
@@ -190,7 +187,6 @@ button {
                 color: var(--main-dark-bg);   
                 display: flex;
                 gap: 40px;
-                /* padding: 24px 0; */
                 align-items: center;
  }
 
@@ -210,8 +206,7 @@ button {
  }
 
  .address {
-    font-style: normal;
-    
+    font-style: normal;    
  }
 
  .header-contacts {}
@@ -244,7 +239,7 @@ button {
  /* для 3-й домашки */
  /*  */
 
- /*.header-contacts:active,*/
+ .header-contacts:active,
  .header-contacts:hover,
  .header-contacts:focus,
  .header-item:hover,
@@ -259,6 +254,10 @@ button {
  */
  .hero {}
 
+ .hero-container {
+
+ }
+
  .hero-title {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -267,6 +266,10 @@ button {
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--main-light-bg);
+        width: 496px;
+        margin: 0 auto;
+        padding-top: 188px;
+        padding-bottom: 48px;
  }
 
  .hero-btn {
@@ -274,18 +277,21 @@ button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        /*  */
+        display: flex;
+        align-items: center;
         letter-spacing: 0.04em;
         color: var(--main-light-bg);       
-        /*  */
-        /*  */
-        /*  */
-        /*  */
-        /*  */
-        /*  */
+        padding: 16px 32px;
+        gap: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
         background: var(--string-web-cl);
-        /*  */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
         text-align: center;
+        margin: 0 auto;
+        
  }
 
  .hero-btn:hover,
