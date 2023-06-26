@@ -109,8 +109,7 @@ ul, ol {
         padding: 0 15px;
 }
 
-.header-container {
-        /* border-bottom: 1px solid #e7e9fc; */
+.header-container {      
         display: flex;
 }
 
@@ -158,6 +157,7 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#4D5AE5;
+        margin-right: 76px;
  }
 
  .web {
@@ -187,7 +187,9 @@ button {
 
 
  .header-link {
-       color: var(--main-dark-bg);        
+       color: var(--main-dark-bg);    
+       display: flex; 
+       gap: 40px;    
  }
 
  .address {
