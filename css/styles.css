@@ -78,9 +78,7 @@ body {
 
 .list, ul, ol {
     list-style: none;
-    font-style: normal;
-    display: block;
-
+    font-style: normal;    
 }
 
 ul, ol {
@@ -111,6 +109,12 @@ ul, ol {
         padding: 0 15px;
 }
 
+.header-container {
+        border-bottom: 1px solid #e7e9fc;
+        display: flex;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -139,7 +143,9 @@ button {
  .header {}
 
  .header-nav {
-    background: var(--main-light-bg);
+        background: var(--main-light-bg);
+        display: flex;
+        align-items: center;
  }
 
  .logo {
