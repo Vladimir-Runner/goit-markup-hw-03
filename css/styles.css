@@ -111,6 +111,7 @@ ul, ol {
 
 .header-container {      
         display: flex;
+        padding: 24px 0;
 }
 
 
@@ -178,7 +179,7 @@ button {
                 color: var(--main-dark-bg);   
                 display: flex;
                 gap: 40px;
-                padding: 24px 0;
+                /* padding: 24px 0; */
                 align-items: center;
  }
 
@@ -208,7 +209,7 @@ button {
         display: flex;
         align-items: center;
         gap: 40px;
-        padding: 24px 0;
+        /* padding: 24px 0; */
         
  }
 
