@@ -110,7 +110,7 @@ ul, ol {
 }
 
 .header-container {
-        border-bottom: 1px solid #e7e9fc;
+        /* border-bottom: 1px solid #e7e9fc; */
         display: flex;
 }
 
@@ -140,7 +140,9 @@ button {
 |Header styles
 |---------------------------
  */
- .header {}
+ .header {
+        border-bottom: 1px solid #e7e9fc;
+ }
 
  .header-nav {
         background: var(--main-light-bg);
