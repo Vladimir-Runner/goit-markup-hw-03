@@ -178,6 +178,7 @@ button {
                 display: flex;
                 gap: 40px;
                 padding: 24px 0;
+                align-items: center;
  }
 
  /*  */ 
@@ -204,6 +205,7 @@ button {
 
  .address-item {
         display: flex;
+        align-items: center;
         
  }
 
@@ -219,7 +221,7 @@ button {
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--link-cl);
-    align-items: center;
+    /* align-items: center; */
      
  }
 
