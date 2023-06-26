@@ -314,11 +314,25 @@ button {
 |--------------------------- 
 */
 
+//========================
+
 .section {}
 
-.describe {}
+.describe {
+        padding: 120px 0;
+}
+
+.describe-container {}
+
+.describe-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        width: calc((100% - 72px) / 4);
+}
 
 .strategy {}
+
 
 .name {
         font-family: 'Roboto', sans-serif;
@@ -382,7 +396,7 @@ button {
 |--------------------------- 
 */
 
-.section {}
+
 
 .team {
         font-family: 'Roboto', sans-serif;
