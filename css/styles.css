@@ -190,7 +190,7 @@ button {
                 color: var(--main-dark-bg);   
                 display: flex;
                 gap: 40px;
-                padding: 24px 0;
+                /* padding: 24px 0; */
                 align-items: center;
  }
 
@@ -204,7 +204,8 @@ button {
 
 
  .header-link {
-       color: var(--main-dark-bg);              
+       color: var(--main-dark-bg);  
+       padding: 24px 0;            
          
  }
 
