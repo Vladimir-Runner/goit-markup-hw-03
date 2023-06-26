@@ -252,10 +252,12 @@ button {
 |Hero styles
 |---------------------------
  */
- .hero {}
+ .hero {
+        padding: 188px 0;
+ }
 
  .hero-container {
-        padding: 188px 0;
+        
  }
 
  .hero-title {
