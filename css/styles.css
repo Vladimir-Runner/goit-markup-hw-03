@@ -147,6 +147,7 @@ button {
         background: var(--main-light-bg);
         display: flex;
         align-items: center;
+        margin-right: 332px;
  }
 
  .logo {
