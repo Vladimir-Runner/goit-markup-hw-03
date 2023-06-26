@@ -197,10 +197,15 @@ button {
 
  .address {
     font-style: normal;
+    
  }
 
  .header-contacts {}
 
+ .address-item {
+        display: flex;
+        
+ }
 
  .header-item,
   {
@@ -214,7 +219,11 @@ button {
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--link-cl);
+    align-items: center;
+     
  }
+
+
 
  /* для 3-й домашки */
  /*  */
