@@ -328,10 +328,14 @@ button {
         display: flex;
         align-items: center;
         gap: 24px;
+        
+}
+
+.strategy-name {
         width: calc((100% - 72px) / 4);
 }
 
-.strategy {}
+.strategy-item {}
 
 
 .name {
