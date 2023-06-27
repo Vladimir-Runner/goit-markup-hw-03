@@ -329,10 +329,14 @@ button {
         align-items: center;
         gap: 24px;
         flex-basis: calc((100% - 3 * 24px) / 4);
-        /* width: 300px;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;  */
+        
+        /* padding: 50px; */
+        /* margin: 20px;  */ */
+}
+
+.describe-list:hover, 
+.describe-list:focus {
+        border: 1px solid rgb(27, 14, 95);
 }
 
 .strategy-name {
