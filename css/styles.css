@@ -568,12 +568,17 @@ button {
         padding: 100px 0;
  }
 
- .logo {}
+ .logo {
+
+        
+ }
 
  .web {}
 
  .studio-down {
+        display: inline-block;
         Color: var(--studio-down-cl);
+        margin-bottom: 16px;
  }
 
  .footer-description {
