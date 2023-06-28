@@ -422,6 +422,8 @@ button {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--main-dark-bg);
+        padding-bottom: 120px;
+        margin-bottom: 72px;
 
 }
 
