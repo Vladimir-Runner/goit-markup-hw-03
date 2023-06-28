@@ -455,7 +455,7 @@ button {
         background-color: var(--studio-down-cl);
 }
 
-.team-item {
+.team-title {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
@@ -465,6 +465,11 @@ button {
         letter-spacing: 0.02em;
         text-transform: capitalize;   
         margin-bottom: 72px;
+}
+
+.team-item {
+        display: flex;
+        gap: 24px;
 }
 
 .team-list {
