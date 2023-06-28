@@ -612,7 +612,8 @@ button {
 .portfolio-container {}
 
 .filter {
-display: flex;
+        display: flex;
+        justify-content: center;
 }
 
 
