@@ -426,7 +426,6 @@ button {
         text-transform: capitalize;
         color: var(--main-dark-bg);        
         margin-bottom: 72px;
-
 }
 
 .doing-list {
@@ -442,7 +441,7 @@ button {
 */
 
 .team-container {
-
+        padding: 120px 0;
 }
 
 .team {
@@ -468,6 +467,7 @@ button {
         letter-spacing: 0.02em;
         text-transform: capitalize;   
         margin-bottom: 72px;
+        
 }
 
 .team-item {
