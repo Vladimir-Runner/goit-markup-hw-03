@@ -602,7 +602,16 @@ button {
 */
 
 
- 
+.portfolio-main {
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
+
+.portfolio-container {}
+
+.filter {}
+
+
 .btn-filter {
         color: var(--string-web-cl);
         background-color: var(--studio-down-cl);
