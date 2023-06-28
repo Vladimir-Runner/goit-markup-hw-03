@@ -476,7 +476,7 @@ button {
         display: flex;
         gap: 24px;
         width: calc((100% - 72px) / 4);
-        /* border-radius: 0px 0px 4px 4px; */
+        border-radius: 0px 0px 4px 4px;
         
 }
 
@@ -509,6 +509,7 @@ button {
         background-color: var(--main-light-bg);
         border-radius: 0px 0px 4px 4px;
         /* width: calc((100% - 72px) / 4); */
+        flex-basis: calc((100% - 72px) / 4);
 }
 
 .homan, .application {
