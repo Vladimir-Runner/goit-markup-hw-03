@@ -624,6 +624,7 @@ button {
         color: var(--string-web-cl);
         background-color: var(--studio-down-cl);
         text-align: center;
+        border-radius: 4px;
         
         /* Button Text */
         font-size: 16px;
@@ -640,6 +641,8 @@ button {
 .btn-filter:focus {
         color: var(--main-light-bg);
         background-color: var(--ocean-cl);
+        border: 1px solid transparent;
+
 }
 
 /* Можливо так - це підказка з чату у figma */
