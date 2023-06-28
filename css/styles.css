@@ -412,7 +412,7 @@ button {
 .section {}
 
 .doing {
-
+        padding-bottom: 120px;
 }
 
 .doing-title {
@@ -431,7 +431,7 @@ button {
 .doing-list {
         display: flex;
         gap: 24px;
-        padding-bottom: 120px;
+        
 }
 
 /* 
@@ -441,7 +441,7 @@ button {
 */
 
 .team-container {
-        padding: 120px 0;
+        
 }
 
 .team {
@@ -455,6 +455,7 @@ button {
         text-transform: capitalize;
         color: var(--main-dark-bg);
         background-color: var(--studio-down-cl);
+        padding: 120px 0;
 }
 
 .team-title {
