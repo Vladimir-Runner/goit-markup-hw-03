@@ -348,7 +348,7 @@ button {
         color: var(--main-dark-bg);
         font-size: 20px;
         font-family: Roboto;
-        ont-weight: 500;
+        font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
         margin-bottom: 8px;
@@ -473,6 +473,8 @@ button {
 .team-item {
         display: flex;
         gap: 24px;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
