@@ -563,10 +563,11 @@ button {
 
  .footer {
     background: var(--main-dark-bg);
+    padding: 100px 0;
  }
 
  .footer-container {
-        padding: 100px 0;
+        /* padding: 100px 0; */
  }
 
  .logo-footer {
