@@ -329,14 +329,16 @@ button {
         align-items: center;
         gap: 24px;
         flex-basis: calc((100% - 3 * 24px) / 4);
-        
+        /* колір рамки є кольором фону, тобто невидима, щоб не зсувався весь макет, коли роблю focus або hover і з`являється рамка. Але з рамками ще треба попрацювати. І з кольорами, і з їх складним алгоритмом відмалювання у різних режимах */
+        border: 1px solid var(--main-light-bg);
         /* padding: 50px; */
         /* margin: 20px;  */ */
 }
 
 .describe-list:hover, 
 .describe-list:focus {
-        border: 1px solid rgb(27, 14, 95);
+        /* Саме оця рамка з`являється */
+        border: 1px solid var(--string-web-cl);
 }
 
 .strategy-name {
