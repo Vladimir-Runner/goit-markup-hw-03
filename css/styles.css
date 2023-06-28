@@ -611,7 +611,9 @@ button {
 
 .portfolio-container {}
 
-.filter {}
+.filter {
+display: flex;
+}
 
 
 .btn-filter {
