@@ -488,6 +488,7 @@ button {
         letter-spacing: 0.02em;
         color: var(--main-dark-bg);
         background-color: var(--main-light-bg);
+        margin-bottom: 8px;
 }
 
 .team-worker {
