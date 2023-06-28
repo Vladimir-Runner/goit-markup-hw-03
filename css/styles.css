@@ -564,6 +564,10 @@ button {
     background: var(--main-dark-bg);
  }
 
+ .footer-container {
+        padding: 100px 0;
+ }
+
  .logo {}
 
  .web {}
