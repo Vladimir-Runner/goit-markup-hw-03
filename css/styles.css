@@ -17,6 +17,7 @@
 --link-cl: #434455;
 --string-web-cl: #4D5AE5;
 --studio-down-cl: #F4F4FD;
+--border-cl: #e7e9fc;
 
 /* Others */
 /* from our tutor Yaroslav - true hidding of some elements */
@@ -148,7 +149,7 @@ button {
 |---------------------------
  */
  .header {
-        border-bottom: 1px solid #e7e9fc;
+        border-bottom: 1px solid var(--border-cl);
  }
 
  .header-nav {
@@ -631,6 +632,8 @@ button {
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        padding: 12px 24px;
+        border: 1px solid var(--border-cl);
 }
 
 .btn-filter:hover, 
