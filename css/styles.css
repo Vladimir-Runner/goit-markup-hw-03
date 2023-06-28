@@ -411,7 +411,10 @@ button {
 
 .section {}
 
-.doing,
+.doing {
+
+}
+
 .doing-title {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -421,8 +424,7 @@ button {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: var(--main-dark-bg);
-        padding-bottom: 120px;
+        color: var(--main-dark-bg);        
         margin-bottom: 72px;
 
 }
@@ -430,6 +432,7 @@ button {
 .doing-list {
         display: flex;
         gap: 24px;
+        padding-bottom: 120px;
 }
 
 /* 
