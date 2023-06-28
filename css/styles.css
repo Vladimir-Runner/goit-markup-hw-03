@@ -507,6 +507,7 @@ button {
 
 .our-team {
         background-color: var(--main-light-bg);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .homan, .application {
