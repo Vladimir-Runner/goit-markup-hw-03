@@ -668,5 +668,7 @@ button {
         padding: 32px 16px;
         border: 1px solid var(--border-cl);
         border-top: none;
+        display: flex;
+        flex-wrap: wrap;
 
 }
