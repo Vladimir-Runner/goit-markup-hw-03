@@ -683,7 +683,7 @@ button {
 
 }
 
-..portfolio-h2 {
+.portfolio-h2 {
         margin-bottom: 8px;
         color: var(--main-dark-bg);
                 font-size: 20px;
