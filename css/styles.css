@@ -1,8 +1,10 @@
 :root {
 
     /*   */
-        --items: 3; // змінна для зберігання кількості елементів в одному рядку сітки
-        --indent: 30px; // змінні для зберігання значення відступу між елементами
+        --items: 3; 
+         /* змінна для зберігання кількості елементів в одному рядку сітки */
+        --indent: 30px; 
+         /* змінні для зберігання значення відступу між елементами */
 
 /* Font */
 --primary-font: Roboto, sans-serif;
@@ -21,20 +23,22 @@
 
 /* Others */
 /* from our tutor Yaroslav - true hidding of some elements */
+     
+}
+
 .visually-hidden {
-                //ADD text of this class               
-                position: absolute;
-                width: 1px;
-                height: 1px;
-                margin: -1px;
-                border: 0;
-                padding: 0;
-                
-                white-space: nowrap;
-                clip-path: inset(100%);
-                clip: rect(0 0 0 0);
-                overflow: hidden;
-        }        
+        /* ADD text of this class                */
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 *,
@@ -224,8 +228,7 @@ button {
         
  }
 
- .header-item,
-  {
+ .header-item  {
     list-style: none;
     text-decoration: none;
     color: currentColor;
@@ -319,7 +322,6 @@ button {
 |--------------------------- 
 */
 
-//========================
 
 .section {}
 
@@ -337,7 +339,7 @@ button {
         /* колір рамки є кольором фону, тобто невидима, щоб не зсувався весь макет, коли роблю focus або hover і з`являється рамка. Але з рамками ще треба попрацювати. І з кольорами, і з їх складним алгоритмом відмалювання у різних режимах */
         border: 1px solid var(--main-light-bg);
         /* padding: 50px; */
-        /* margin: 20px;  */ */
+        /* margin: 20px;  */ 
 }
 
 .describe-list:hover, 
@@ -538,13 +540,15 @@ button {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.32px;
         text-align: center;
-        letter-spacing: 0.02em;
+        
         color: var(--link-cl);
         background-color: var(--main-light-bg);
         flex: none;
         order: 1;
-        flex-grow: 0;
+        /* flex-grow: 0; */
+
         padding: 32px 16px;
 }
 
@@ -684,13 +688,21 @@ button {
 }
 
 .portfolio-h2 {
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 8px;
+        padding: 0;
         color: var(--main-dark-bg);
                 font-size: 20px;
-                font-family: Roboto;
+                line-height: 1.2;
                 font-style: normal;
-                font-weight: 500;
-                line-height: 24px;
+                font-weight: 500;                
                 letter-spacing: 0.4px;
-                /* перенести з класу application */
+                
+                        /* text-align: center;                        
+                        
+                        background-color: var(--main-light-bg);
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0; */
+                        
 }
