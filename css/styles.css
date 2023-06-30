@@ -534,23 +534,7 @@ button {
 
 .product {}
 
-.worker, .type-application {
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-        text-align: center;
-        
-        color: var(--link-cl);
-        background-color: var(--main-light-bg);
-        flex: none;
-        order: 1;
-        /* flex-grow: 0; */
 
-        padding: 32px 16px;
-}
 
 .tom {}
 
@@ -681,8 +665,8 @@ button {
         padding: 32px 16px;
         border: 1px solid var(--border-cl);
         border-top: none;
-        display: flex;
-        /* flex-wrap: wrap; */    
+        /* display: flex; */
+        /* flex-wrap: wrap;     */
 
 }
 
@@ -697,11 +681,30 @@ button {
                 font-weight: 500;                
                 letter-spacing: 0.4px;
                 
-                        /* text-align: center;                        
+                        /* text-align: center;                         */
                         
                         background-color: var(--main-light-bg);
-                        flex: none;
-                        order: 0;
-                        flex-grow: 0; */
+                        /* flex: none; */
+                        /* order: 0; */
+                        /* flex-grow: 0; */
                         
+}
+
+.worker,
+.type-application {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        /* text-align: center; */
+
+        color: var(--link-cl);
+        background-color: var(--main-light-bg);
+        /* flex: none;
+        order: 1; */
+        /* flex-grow: 0; */
+
+        /* padding: 32px 16px; */
 }
