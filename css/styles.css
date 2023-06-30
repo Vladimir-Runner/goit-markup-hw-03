@@ -706,5 +706,9 @@ button {
         order: 1; */
         /* flex-grow: 0; */
 
-        /* padding: 32px 16px; */
+        
+}
+
+.worker {
+        padding: 32px 16px;
 }
