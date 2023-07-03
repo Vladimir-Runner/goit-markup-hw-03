@@ -460,8 +460,9 @@ button {
         text-transform: capitalize;
         color: var(--main-dark-bg);
         background-color: var(--studio-down-cl);
-        padding: 120px 0;
+        padding: 120px 0;        
 }
+/*  */
 
 .team-title {
         font-family: 'Roboto', sans-serif;
@@ -565,7 +566,8 @@ button {
 
  .logo-footer {
         display: inline-block;
-        margin-bottom: 16px;        
+        margin-bottom: 16px;
+        padding: 0;
  }
 
  .web {}
@@ -647,9 +649,9 @@ button {
 
 
 .portfolio-blockitems {
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
                         0px 2px 1px rgba(0, 0, 0, 0.08),
-                        0px 2px 2px rgba(0, 0, 0, 0.12);
+                        0px 2px 2px rgba(0, 0, 0, 0.12); */
 }
 
 .portfolio-link {
